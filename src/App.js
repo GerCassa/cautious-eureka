@@ -1,25 +1,47 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class Contact extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      password: 'Yaay',
+      authorized: false
+    };
+    this.authorize = this.authorize.bind(this);
+  }
+
+  authorize(e) {
+    const password = e.target.querySelector(
+      'input[type="password"]').value;
+    const auth = password === this.state.password;
+    this.setState({
+      authorized: auth
+    })
+  }
+
+  render() {
+
+    const login = <form onSubmit={this.authorize}action="#">
+      <input type="password" placeholder="Password" />
+      <input type="submit"/>
+    </form>
+
+    const yaay = (
+      <ul>
+        <li>
+          That is the right Password!
+        </li>
+      </ul>
+    );
+
+    return (
+      <div className="App-header">
+        <h1>{ this.state.authorized ?'Yaay' : 'Enter the Password'}</h1>
+        <h1>{ this.state.authorized ? yaay : login}</h1>
+      </div>
+    );
+  }
 }
 
-export default App;
+export default Contact;

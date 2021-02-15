@@ -5,7 +5,7 @@ export class Button extends React.Component {
 		return (
 			<button 
 				className={ this.props.light ? 'light-button' : 'dark-button' } onClick={this.props.onClick}>
-				Refresh
+				Change Color
 			</button>
 		);
 	}

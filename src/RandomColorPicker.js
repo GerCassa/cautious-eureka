@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Button} from './Button';
 
-class Random extends React.Component {
+export class Random extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {color: [60, 10, 21]}
+    this.state = {color: [200, 10, 21]}
     this.handleClick = this.handleClick.bind(this);
   }
   componentDidMount() {
@@ -44,7 +44,7 @@ class Random extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className='App'>
         <h1 className={this.isLight() ? 'white' : 'black'}>
         Your color is {this.formatColor(this.state.color)}
         </h1>
@@ -54,7 +54,7 @@ class Random extends React.Component {
   }
 }
 
-ReactDOM.render(
-  <Random />, 
-  document.getElementById('app')
-);
+// ReactDOM.render(
+//   <Random />, 
+//   document.getElementById('app')
+// );

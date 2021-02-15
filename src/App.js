@@ -36,7 +36,7 @@ class Contact extends React.Component {
     );
 
     return (
-      <div className="App-header">
+      <div className="App">
         <h1>{ this.state.authorized ?'Yaay' : 'Enter the Password'}</h1>
         <h1>{ this.state.authorized ? yaay : login}</h1>
       </div>

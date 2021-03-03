@@ -1,0 +1,8 @@
+{
+  "appService.zipIgnorePattern": [
+    "node_modules{,/**}",
+    ".vscode{,/**}"
+  ],
+  "appService.defaultWebAppToDeploy": "/subscriptions/f06f65a0-b97a-46c9-ab2f-21404a506af1/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/js-training",
+  "appService.deploySubpath": "."
+}

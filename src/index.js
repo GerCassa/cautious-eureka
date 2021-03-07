@@ -4,7 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Contact from './authForm';
 import  Clock  from './Clock';
-import {Random} from './randomColorPicker.js';
+import {Random} from './RandomColorPicker';
 
 ReactDOM.render(
   <React.StrictMode>

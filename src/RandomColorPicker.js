@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import {Button} from './Button';
 
 export class Random extends React.Component {

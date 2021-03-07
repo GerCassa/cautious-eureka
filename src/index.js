@@ -2,15 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Contact from './App';
+import Contact from './authForm';
 import  Clock  from './Clock';
-import {Random} from './RandomColorPicker';
+import {Random} from './randomColorPicker';
 
 ReactDOM.render(
   <React.StrictMode>
     <Clock/>
+    <div className="App">Hi, welcome to my site</div>
     <Random/>
-    <Contact />
+    <Contact/>
   </React.StrictMode>,
   document.getElementById('root')
 );

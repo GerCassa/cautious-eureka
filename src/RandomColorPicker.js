@@ -53,8 +53,3 @@ export class Random extends React.Component {
     );
   }
 }
-
-// ReactDOM.render(
-//   <Random />, 
-//   document.getElementById('app')
-// );

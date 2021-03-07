@@ -40,10 +40,10 @@
 button {
   -webkit-transition-duration: 0.1s;
   transition-duration: 0.1s;
-  background-color: #F4595B;
+  /* background-color: #F4595B; */
   border: none;
   border-radius: 8px;
-  border-bottom: 4px solid #C24648;
+  /* border-bottom: 4px solid #C24648; */
   color: white;
   padding: 15px 32px;
   margin: 0 1em 1em 1em;

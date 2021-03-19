@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import '../App.css';
 
 class Contact extends React.Component {
   constructor(props) {
@@ -37,6 +37,7 @@ class Contact extends React.Component {
 
     return (
       <div className="App">
+        <a href="/">Home</a>
         <h1>{ this.state.authorized ?'Yaay' : 'Enter the Password..'}</h1>
         <h1>{ this.state.authorized ? yaay : login}</h1>
       </div>

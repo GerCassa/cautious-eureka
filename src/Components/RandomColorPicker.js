@@ -4,7 +4,7 @@ import {Button} from '../Accesories/Button';
 export class Random extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {color: [200, 10, 21]}
+    this.state = {color: [255, 255, 255]}
     this.handleClick = this.handleClick.bind(this);
   }
   componentDidMount() {
@@ -43,12 +43,11 @@ export class Random extends React.Component {
 
   render() {
     return (
-      <div className='App'>
-        <a href="/">Home</a>
-        <h1 className={this.isLight() ? 'white' : 'black'}>
-        Your color is {this.formatColor(this.state.color)}
-        </h1>
+      <div>
         <Button light={this.isLight()} onClick={this.handleClick}/>
+        {/* <h4 id="colorName"className={this.isLight() ? 'white' : 'black'}>
+        Your color is {this.formatColor(this.state.color)}
+        </h4> */}
       </div>
     );
   }

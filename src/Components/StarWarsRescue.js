@@ -88,4 +88,5 @@ function animate(){
   }
 }
 
-startAnimating(30)
+export default startAnimating;
+

@@ -7,7 +7,8 @@ class Clock extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="time">
+        UK Time- 
         {this.props.isPrecise ? this.state.date.toISOString() : this.state.date.toLocaleTimeString()}
       </div>
     );

@@ -1,5 +1,6 @@
 import React from "react";
-import Hamburger from 'hamburger-react'
+import {Squash as Hamburger} from 'hamburger-react'
+import { NavLink } from "react-router-dom";
 
 class Navbar extends React.Component {
   constructor(props) {
@@ -14,6 +15,7 @@ class Navbar extends React.Component {
 
   componentDidUpdate(){
         console.log(this.state.menu)
+
   }
 
   handleClick () {
@@ -31,12 +33,12 @@ class Navbar extends React.Component {
         <div className="burger">
           <Hamburger direction="right" onToggle={toggled => this.handleClick()}/>
         </div>
-        <div className={this.state.menu}>
-          <ul className='nav-menu-items'>
-            <li className="nav-text"><a href="/">Home</a></li>
-            <li className="nav-text"><a href="/projects">Projects</a></li>
-            <li className="nav-text"><a href="/about">About Me</a></li>
-            <li className="nav-text"><a href="/contact">Contact</a></li>
+        <div>
+          <ul  className={this.state.menu}>
+            <li className="nav-text"><a href="/">Home</a> </li>
+            <li className="nav-text"><a href="#aboutMe">AboutMe</a></li>
+            <li className="nav-text"><a href="#projects">Projects</a></li>
+            <li className="nav-text"><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>

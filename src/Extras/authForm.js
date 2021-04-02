@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 
-class Contact extends React.Component {
+class AuthForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -45,4 +45,4 @@ class Contact extends React.Component {
   }
 }
 
-export default Contact;
+export default AuthForm;

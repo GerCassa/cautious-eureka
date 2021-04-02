@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: url("/src/Images/fitz-roy-hero.jpg");
   background-repeat: no-repeat;
@@ -5,26 +9,79 @@ body {
   background-attachment:fixed;
 }
 
-h1 {
-  text-align: center;
-}
-
 a {
   text-decoration: none;
   color: black;
   font-weight: bold;
+  padding: 8px 16px 8px 14px;
 }
 
 a:hover {
   color: antiquewhite;
+  padding: 8px 16px 8px 14px;
+  margin: 0 0 0 2px;
+}
+
+h1{
+  text-align: center;
 }
 
 /* Clock Style */
 
 .time{
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   margin-right: 1em;
+  text-align: center;
+}
+
+/* Home Style */
+
+.home{
+  height: 100vh;
+  transition: 1s;
+}
+
+.home-text {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.backend-list, .frontend-list {
+  padding-left: 0;
+  background-color: olive;
+  display: inline-block;
+  position: relative;
+}
+
+/* About Me Style */
+
+.aboutMe {
+  height: 100vh;
+  background-image: url('./Images/cerro-calafate.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+}
+
+.aboutMe-text {
+  padding-top: 50px;
+}
+
+.projects {
+  height: 100vh;
+  background-color: lightcoral;
+}
+
+
+
+.Contact {
+  height: 100vh;
+  background-color: olive;
 }
 

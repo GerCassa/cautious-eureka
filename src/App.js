@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
-import './styles/Navbar.css';
+import './Styles/Navbar.css';
 
 import Home from './Components/Home';
 import Contact from './Components/Contact';
-import  Clock  from './Accesories/Clock';
 import Navbar from './Components/NavBar';
 import Projects from './Components/Projects';
 import AboutMe from './Components/AboutMe';

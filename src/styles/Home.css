@@ -1,0 +1,134 @@
+/* Home Style */
+
+.home {
+  background-image: url("/src/Images/small-fitz-roy.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+@media only screen and (min-device-width: 400px) {
+  .home {
+    background-image: url("/src/Images/fitz-roy-hero.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+}
+
+.home-text {
+  padding-top: 10px;
+  margin-top: 0;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.backend-list,
+.frontend-list {
+  width: 25%;
+  height: 35vh;
+  /* border: black; */
+  /* border-style: groove; */
+  padding-left: 0;
+  margin: 8px;
+  /* background-color: olive; */
+  display: inline-block;
+  position: relative;
+}
+
+.Java {
+  display: inline-flex;
+  padding: 8px;
+  height: 67px;
+  width: 60px;
+  background-image: url('../Images/pngfind.com-mysql-logo-transparent-png-744402.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 35px;
+}
+
+.Java:hover {
+  background-size: 45px;
+}
+
+.MongoDB {
+  display: inline-flex;
+  padding: 8px;
+  height: 67px;
+  width: 60px;
+  background-image: url('../Images/kisspng-mongodb-logo-database-nosql-postgresql-how-to-create-an-outstanding-tech-stack-clickup-bl-5c391bdfde6506.5513114315472465599109.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50px;
+}
+
+.MongoDB:hover {
+  background-size: 60px;
+}
+
+.PostgresSQL {
+  display: inline-flex;
+  padding: 8px;
+  height: 67px;
+  width: 120px;
+  background-image: url('../Images/kisspng-postgresql-amazon-relational-database-service-micr-sisense-5b27357116c531.7956350915292962410933.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120px;
+}
+
+.PostgresSQL:hover{
+  background-size: 140px;
+}
+
+.JS {
+  display: inline-flex;
+  padding: 8px;
+  height: 67px;
+  width: 60px;
+  background-image: url('../Images/kisspng-javascript-scalable-vector-graphics-logo-encapsula-javascript-le-ekran-grnts-almak-alpere-5b6dbeb4be0349.4316196815339189007783.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50px;
+}
+
+.JS:hover {
+  background-size: 60px;
+}
+
+.Ruby {
+  display: inline-flex;
+  padding: 8px;
+  height: 67px;
+  width: 60px;
+  background-image: url('../Images/PngItem_120179.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50px;
+}
+
+.Ruby:hover {
+  background-size: 60px;
+}
+
+.HtmlCss {
+  display: inline-flex;
+  padding: 8px;
+  height: 67px;
+  width: 60px;
+  background-image: url('../Images/Daco_4866189.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 65px;
+}
+
+.HtmlCss:hover{
+  background-size: 75px;
+}

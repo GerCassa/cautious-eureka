@@ -1,6 +1,6 @@
 import React from "react";
 import {Squash as Hamburger} from 'hamburger-react'
-import { NavLink } from "react-router-dom";
+import Clock from "../Accesories/Clock";
 
 class Navbar extends React.Component {
   constructor(props) {
@@ -30,6 +30,7 @@ class Navbar extends React.Component {
   render () {
     return (
       <div className="nav-wrapper">
+        <Clock/>
         <div className="burger">
           <Hamburger direction="right" onToggle={toggled => this.handleClick()}/>
         </div>

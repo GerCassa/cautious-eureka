@@ -1,7 +1,5 @@
 import React from 'react';
-import "../App.css";
-import Navbar from './NavBar';
-import Clock from '../Accesories/Clock';
+import "../Styles/Home.css";
 
 class Home extends React.Component {
   constructor(props) {
@@ -18,7 +16,6 @@ class Home extends React.Component {
   render () {
     return (
       <div className={this.state.home}>
-        <Clock/>
         <div className='home-text'>
           <h1>Hello World!</h1>
           <h3>I am Germán Cassagnes and I am a Full-Stack Web Developer.</h3>
@@ -27,15 +24,15 @@ class Home extends React.Component {
         <div>
           <ul className="backend-list">
             <li><h2>Back-End</h2></li>
-            <li>Java</li>
-            <li>MongoDB</li>
-            <li>Postgres SQL</li>
+            <li className="Java"></li>
+            <li className="MongoDB"></li>
+            <li className="PostgresSQL"></li>
           </ul>
           <ul className="frontend-list">
             <li><h2>Front-End</h2></li>
-            <li>JavaScript, React</li>
-            <li>Ruby, Sinatra</li>
-            <li>HTML / CSS</li>
+            <li className="JS"></li>
+            <li className="Ruby"></li>
+            <li className="HtmlCss"></li>
           </ul>
         </div>
         </div>

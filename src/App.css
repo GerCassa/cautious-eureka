@@ -1,28 +1,37 @@
 html {
+  margin: 0;
+  padding:0;
   scroll-behavior: smooth;
 }
 
 body {
   background-image: url("/src/Images/small-fitz-roy.jpg");
+  height: 100vh;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  object-fit: cover;
 }
 
 @media only screen and (min-device-width: 400px) {
   body {
     background-image: url("/src/Images/fitz-roy-hero.jpg");
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment:fixed;
+    object-fit: cover;
   }
 }
 
-h1{
-  text-align: center;
+h1 {
+  margin: 0;
 }
 
 h2 {
   margin: 0;
+}
+
+h3 {
+  padding: 18px;
 }
 
 /* Clock Style */
@@ -36,43 +45,9 @@ h2 {
   text-align: center;
 }
 
-/* Home Style */
-
-.home{
-  height: 100vh;
-  transition: 1s;
-}
-
-.home-text {
-  text-align: center;
-}
-
-li {
-  list-style: none;
-  text-decoration: none;
-  color: aliceblue;
-}
-
-.backend-list, .frontend-list {
-  width: 25%;
-  height: 35vh;
-  border: black;
-  border-style: groove;
-  padding-left: 0;
-  margin: 8px;
-  background-color: olive;
-  display: inline-block;
-  position: relative;
-}
-
-.backend-list,
-.frontend-list> :nth-child() {
-  color: aliceblue;
-}
-
 /* About Me Style */
   .aboutMe {
-    height: 100vh;
+    height: 120vh;
     background-image: url('./Images/cerro-calafate.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,7 +65,9 @@ li {
 }
 
 .aboutMe-text {
+  margin: 0;
   padding-top: 50px;
+  text-align: center;
 }
 
 /* Projects Style */

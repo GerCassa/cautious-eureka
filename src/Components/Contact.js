@@ -1,6 +1,5 @@
 import React from 'react';
 import "../App.css";
-import Navbar from './NavBar';
 
 class Contact extends React.Component {
   render () {

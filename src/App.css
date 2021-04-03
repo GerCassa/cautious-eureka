@@ -50,9 +50,12 @@ h2 {
 li {
   list-style: none;
   text-decoration: none;
+  color: aliceblue;
 }
 
 .backend-list, .frontend-list {
+  width: 25%;
+  height: 35vh;
   border: black;
   border-style: groove;
   padding-left: 0;
@@ -81,6 +84,7 @@ li {
   height: 100vh;
   background-image: url('./Images/small-cerro-calafate.png');
   background-repeat: no-repeat;
+  background-size: cover;
   object-fit: cover;
   }
 }

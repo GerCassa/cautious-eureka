@@ -36,7 +36,7 @@ class Navbar extends React.Component {
         </div>
         <div>
           <ul  className={this.state.menu}>
-            <li className="nav-text"><a className='nav-a' href="/">Home</a> </li>
+            <li className="nav-text"><a className='nav-a' href="#home">Home</a> </li>
             <li className="nav-text"><a className='nav-a' href="#aboutMe">AboutMe</a></li>
             <li className="nav-text"><a className='nav-a' href="#projects">Projects</a></li>
             <li className="nav-text"><a className='nav-a' href="#contact">Contact</a></li>

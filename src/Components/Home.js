@@ -19,22 +19,25 @@ class Home extends React.Component {
         <div className='home-text'>
           <h1>Hello World!</h1>
           <h3>I am Germán Cassagnes and I am a Full-Stack Web Developer.</h3>
-          <h4>I specialize in responsive, intuitive and attractive websites.<br/> My main focus is to create clean code and happy user experiences. </h4>
-          <h3>Stack</h3>
-        <div>
-          <ul className="backend-list">
-            <li><h2>Back-End</h2></li>
-            <li className="Java"></li>
-            <li className="MongoDB"></li>
-            <li className="PostgresSQL"></li>
-          </ul>
-          <ul className="frontend-list">
-            <li><h2>Front-End</h2></li>
-            <li className="JS"></li>
-            <li className="Ruby"></li>
-            <li className="HtmlCss"></li>
-          </ul>
-        </div>
+          <h4>I specialize in responsive, intuitive and lovely websites, and I also enjoy designing databases.<br/> My main focus is to create clean code and happy user experiences. </h4>
+          <h3>My Skills</h3>
+          <div>
+            <ul className="backend-list">
+              <li><h2>Back-End</h2></li>
+              <li className="Java"></li>
+              <li className="MongoDB"></li>
+              <li className="PostgresSQL"></li>
+            </ul>
+            <ul className="frontend-list">
+              <li><h2>Front-End</h2></li>
+              <li className="JS"></li>
+              <li className="Ruby"></li>
+              <li className="HtmlCss"></li>
+            </ul>
+          </div>
+          <div className='scroller bounce'>
+            <a className='scroll-button'href="#aboutMe">↓ Show me more! ↓</a>
+          </div>
         </div>
       </div>
     )

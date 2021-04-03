@@ -26,11 +26,13 @@ class Home extends React.Component {
           <h3>Stack</h3>
         <div>
           <ul className="backend-list">
+            <li><h2>Back-End</h2></li>
             <li>Java</li>
             <li>MongoDB</li>
             <li>Postgres SQL</li>
           </ul>
           <ul className="frontend-list">
+            <li><h2>Front-End</h2></li>
             <li>JavaScript, React</li>
             <li>Ruby, Sinatra</li>
             <li>HTML / CSS</li>

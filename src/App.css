@@ -17,21 +17,12 @@ body {
   }
 }
 
-a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  padding: 8px 16px 8px 14px;
-}
-
-a:hover {
-  color: antiquewhite;
-  padding: 8px 16px 8px 14px;
-  margin: 0 0 0 2px;
-}
-
 h1{
   text-align: center;
+}
+
+h2 {
+  margin: 0;
 }
 
 /* Clock Style */
@@ -62,10 +53,18 @@ li {
 }
 
 .backend-list, .frontend-list {
+  border: black;
+  border-style: groove;
   padding-left: 0;
+  margin: 8px;
   background-color: olive;
   display: inline-block;
   position: relative;
+}
+
+.backend-list,
+.frontend-list> :nth-child() {
+  color: aliceblue;
 }
 
 /* About Me Style */
@@ -80,9 +79,9 @@ li {
   @media screen and (max-width: 400px) {
 .aboutMe {
   height: 100vh;
-  background-image: url('./Images/small-cerro-calafate.jpg');
+  background-image: url('./Images/small-cerro-calafate.png');
   background-repeat: no-repeat;
-  background-size:100vh;
+  object-fit: cover;
   }
 }
 
@@ -90,9 +89,33 @@ li {
   padding-top: 50px;
 }
 
+/* Projects Style */
+
+.projects-text{
+  margin: 0;
+  padding-top: 50px;
+  color: aliceblue;
+}
+
+.projects-links {
+  text-decoration:  none;
+  padding: 0;
+  margin: 0;
+  color: aliceblue;
+  position: absolute;
+}
+
+.projects-links:hover {
+  color: antiquewhite;
+  padding: 0;
+  margin: 0 0 0 1px;
+}
+
+
 .projects {
+  background-image: url('/src/Images/constellations.jpg');
+  background-size: cover;
   height: 100vh;
-  background-color: lightcoral;
 }
 
 

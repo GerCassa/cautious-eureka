@@ -31,6 +31,19 @@
   transition: .5s;
 }
 
+.nav-a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 8px 16px 8px 14px;
+}
+
+.nav-a:hover {
+  color: antiquewhite;
+  padding: 8px 16px 8px 14px;
+  margin: 0 0 0 2px;
+}
+
 .nav-text {
   list-style: none;
   padding: 8px 0px 8px 16px;

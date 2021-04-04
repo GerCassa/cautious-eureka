@@ -33,9 +33,9 @@ class Home extends React.Component {
               <li className="HtmlCss"></li>
             </ul>
           </div>
-          <div className='scroller bounce'>
+          {/* <div className='scroller bounce'>
             <a className='scroll-button'href="#aboutMe">↓ Show me more! ↓</a>
-          </div>
+          </div> */}
         </div>
       </div>
     )

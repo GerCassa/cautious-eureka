@@ -45,31 +45,6 @@ h3 {
   text-align: center;
 }
 
-/* About Me Style */
-  .aboutMe {
-    height: 120vh;
-    background-image: url('./Images/cerro-calafate.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment:fixed;
-  }
-
-  @media screen and (max-width: 400px) {
-.aboutMe {
-  height: 100vh;
-  background-image: url('./Images/small-cerro-calafate.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: cover;
-  }
-}
-
-.aboutMe-text {
-  margin: 0;
-  padding-top: 25px;
-  text-align: center;
-}
-
 /* Projects Style */
 
 .projects-text{

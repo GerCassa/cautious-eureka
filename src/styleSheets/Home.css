@@ -19,7 +19,7 @@
 }
 
 .home-text {
-  padding-top: 10px;
+  padding-top: 25px;
   margin-top: 0;
   text-align: center;
 }
@@ -63,7 +63,7 @@ li {
   background-image: url('../Images/kisspng-mongodb-logo-database-nosql-postgresql-how-to-create-an-outstanding-tech-stack-clickup-bl-5c391bdfde6506.5513114315472465599109.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 50px;
+  background-size: 60px;
 }
 
 .MongoDB:hover {
@@ -102,7 +102,7 @@ li {
 
 .Ruby {
   display: inline-flex;
-  padding: 10px;
+  padding: 8px;
   height: 67px;
   width: 60px;
   background-image: url('../Images/PngItem_120179.png');
@@ -117,7 +117,7 @@ li {
 
 .HtmlCss {
   display: inline-flex;
-  padding: 10px;
+  padding: 8px;
   height: 67px;
   width: 60px;
   background-image: url('../Images/Daco_4866189.png');
@@ -165,7 +165,7 @@ li {
 .scroll-button {
   border-radius: 25%;
   text-decoration: none;
-  padding: 8px;
+  padding: 10px;
   background-color: rgba(115, 196, 211, 0.5);
   color: black;
   font-weight: bold;

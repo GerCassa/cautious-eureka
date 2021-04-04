@@ -23,13 +23,11 @@ class Home extends React.Component {
           <h3>My Skills</h3>
           <div>
             <ul className="backend-list">
-              <li><h2>Back-End</h2></li>
               <li className="Java"></li>
               <li className="MongoDB"></li>
               <li className="PostgresSQL"></li>
             </ul>
             <ul className="frontend-list">
-              <li><h2>Front-End</h2></li>
               <li className="JS"></li>
               <li className="Ruby"></li>
               <li className="HtmlCss"></li>

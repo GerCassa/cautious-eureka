@@ -7,15 +7,15 @@ class AboutMe extends React.Component {
   constructor(props) {
     super(props);
     this.state = {text: 'hidden'};
-    this.scrolled = this.scrolled.bind(this);
+    this.visible = this.visible.bind(this);
   }
 
-  scrolled(inView) {
+  visible(inView) {
     if(inView) {
-      console.log(inView)
+      // console.log(inView)
       this.setState({text: 'shown'})
     } else {
-      console.log(inView)
+      // console.log(inView)
       this.setState({text: 'hidden'})
     }
   }
@@ -26,7 +26,7 @@ class AboutMe extends React.Component {
           <div  className="aboutMe-text">
             <h1>About Me</h1>
           </div>
-        <InView as="div" onChange={(inView, entry) => this.scrolled(inView)}>
+        <InView as="div" onChange={(inView, entry) => this.visible(inView)}>
             <h4 className={this.state.text}>
               I was born in a very small town in south of the Argentinean Patagonia, El Calafate. I lived there most of my life, enjoying the landscapes and the endless hikes along the mountains and glaciers.
               Since an early age I developed a love for computers and video games.

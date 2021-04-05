@@ -1,41 +1,47 @@
 import React from 'react';
 import "../styleSheets/Home.css";
+import { InView } from 'react-intersection-observer';
 
 class Home extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {home: "home"};
+    this.state = {text: "hidden"};
+    this.visible = this.visible.bind(this);
   }
 
-  // componentDidMount(){
-  //   console.log(this.state.home)
-  //   this.setState({home: "home-active"})
-  // }
+  visible(inView) {
+    if(inView) {
+      // console.log(inView)
+      this.setState({text: 'here'})
+    } else {
+      // console.log(inView)
+      this.setState({text: 'not-here'})
+    }
+  }
 
 
   render () {
     return (
-      <div className={this.state.home}>
-        <div className='home-text'>
+      <div className='home'>
+        <div className={this.state.text}>
+          <InView as="div" onChange={(inView, entry) => this.visible(inView)}>
           <h1>Hello World!</h1>
           <h3>I am Germán Cassagnes and I am a Full-Stack Web Developer.</h3>
           <h4>I specialize in responsive, intuitive and lovely websites, and I also enjoy designing databases.<br/> My main focus is to create clean code and happy user experiences. </h4>
-          <h3>My Skills</h3>
-          <div>
+          </InView>
+          <h3>My Stack</h3>
+          <div className='stackContainer'>
             <ul className="backend-list">
               <li className="Java"></li>
               <li className="MongoDB"></li>
               <li className="PostgresSQL"></li>
-            </ul>
+            </ul> <br className="stack-spacer"/>
             <ul className="frontend-list">
               <li className="JS"></li>
               <li className="Ruby"></li>
               <li className="HtmlCss"></li>
             </ul>
           </div>
-          {/* <div className='scroller bounce'>
-            <a className='scroll-button'href="#aboutMe">↓ Show me more! ↓</a>
-          </div> */}
         </div>
       </div>
     )
@@ -43,3 +49,8 @@ class Home extends React.Component {
 }
 
 export default Home;
+
+//Scroll button in case I want it back :)
+<div className='scroller bounce'>
+  <a className='scroll-button'href="#aboutMe">↓ Show me more! ↓</a>
+</div>

@@ -32,11 +32,8 @@
     display: block;
     width: 50%;
     transition: 2s;
-    threshold: 0;
 }
 
 .hidden {
-  threshold: 0;
-  background-color: rosybrown;
   left: -300%;
 }

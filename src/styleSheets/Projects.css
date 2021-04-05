@@ -1,0 +1,66 @@
+/* Projects Style */
+
+.projects {
+  background-image: url('/src/Images/constellations.jpg');
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+
+.projects-title {
+  margin: 0;
+  padding-top: 50px;
+  color: aliceblue;
+}
+
+.project-links {
+  text-align: center;
+  width: 80%;
+  height: 80vh;
+  padding: 0;
+  margin: 8px;
+  display: inline-table;
+  position: relative;
+  /* background-color: rgba(182, 132, 132, 0.5); */
+}
+
+.visible{
+  width: 300px;
+  display: inline-table;
+  vertical-align: top;
+  list-style: none;
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+  padding: 16px;
+  transition: 1s;
+}
+
+.visible:hover {
+  color: wheat;
+}
+
+
+
+/* .pokedex {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  list-style: none;
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+  padding: 16px;
+}
+
+.pokedex:hover {
+  color: wheat;
+} */
+
+/* li {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+} */
+
+

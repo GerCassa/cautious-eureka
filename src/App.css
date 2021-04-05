@@ -45,35 +45,6 @@ h3 {
   text-align: center;
 }
 
-/* Projects Style */
-
-.projects-text{
-  margin: 0;
-  padding-top: 50px;
-  color: aliceblue;
-}
-
-.projects-links {
-  text-decoration:  none;
-  padding: 0;
-  margin: 0;
-  color: aliceblue;
-  position: absolute;
-}
-
-.projects-links:hover {
-  color: antiquewhite;
-  padding: 0;
-  margin: 0 0 0 1px;
-}
-
-
-.projects {
-  background-image: url('/src/Images/constellations.jpg');
-  background-size: cover;
-  height: 100vh;
-}
-
 
 
 .Contact {

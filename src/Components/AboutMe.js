@@ -24,13 +24,13 @@ class AboutMe extends React.Component {
     return (
       <div className="aboutMe">
           <div  className="aboutMe-text">
-            <h1>About Me</h1>
+            <h1><span>About Me</span></h1>
           </div>
         <InView as="div" onChange={(inView, entry) => this.visible(inView)}>
             <h4 className={this.state.text}>
-              I was born in a very small town in south of the Argentinean Patagonia, El Calafate. I lived there most of my life, enjoying the landscapes and the endless hikes along the mountains and glaciers.
-              Since an early age I developed a love for computers and video games.
-              I will never forget that exciting feeling when I learned to open games from MSDos on my first computer a Win95</h4>
+              I was born in a very small town in south of the Argentinean Patagonia, El Calafate. I lived there most of my life, enjoying the landscapes and endless hikes along the mountains and glaciers. <br/>
+              Since an early age I developed a love for computers and video games, but because of my great social skills, I began a career in Tourism, which I continued for more than ten years. <br/>
+              After moving to Scotland, I have decided to pursue my teens dream of becoming a Software Developer</h4>
         </InView>
       </div>
     )

@@ -25,23 +25,25 @@ class Projects extends React.Component {
     return (
       <div className="projects">
         <div>
-          <h1 className='projects-title'>My projects</h1>
+          <h1 className='projects-title'><span>My projects</span></h1>
           <ul className="project-links">
           <InView as="div" onChange={(inView, entry) => this.visible(inView)}>
+
             <li>
               <a className={this.state.links} href="https://main.d3us38g0xqyx1f.amplifyapp.com/">
-                 ChewieRescue
+                 <span>ChewieRescue</span>
                  <img src={chewie} alt='ChewieRescueGame' width='250' height='150'/>
-              </a>
-                 
+              </a>   
             </li>
+
             <li>
               <a className={this.state.links} href="https://pokedex-js-gercassa.herokuapp.com/">
-                PokedexJS
+                <span>PokedexJS</span>
                 <img src={pokedex} alt='PokedexJS' width='250' height='150'/>  
               </a>
             </li>
             </InView>
+
           </ul>
         </div>
       </div>

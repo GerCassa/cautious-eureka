@@ -1,7 +1,7 @@
 /* About Me Style */
 .aboutMe {
-  height: 120vh;
-  background-image: url('../Images/cerro-calafate.jpg');
+  height: 130vh;
+  background-image: url('../Images/cerro-calafate 2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -9,8 +9,8 @@
 
 @media screen and (max-width: 400px) {
   .aboutMe {
-    height: 100vh;
-    background-image: url('../Images/small-cerro-calafate.png');
+    height: 120vh;
+    background-image: url('../Images/cerro-calafate 2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
@@ -27,13 +27,20 @@
 }
 
 .shown {
-    margin-left: 25%;
-    text-align: center;
-    display: block;
-    width: 50%;
-    transition: 2s;
+  font-size: 20px;
+  color: aliceblue;
+  padding-top: 13%;
+  margin-left: 15%;
+  text-align: center;
+  line-height: 150%;
+  width: 70%;
+  transition: 2s;
 }
 
 .hidden {
+  /* font-size: 20px; */
   left: -300%;
+  line-height: 150%;
+  transition: 2s;
+
 }

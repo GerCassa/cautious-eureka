@@ -25,18 +25,21 @@ class Home extends React.Component {
       <div className='home'>
         <div className={this.state.text}>
           <InView as="div" onChange={(inView, entry) => this.visible(inView)}>
-          <h1>Hello World!</h1>
-          <h3>I am Germán Cassagnes and I am a Full-Stack Web Developer.</h3>
-          <h4>I specialize in responsive, intuitive and lovely websites, and I also enjoy designing databases.<br/> My main focus is to create clean code and happy user experiences. </h4>
+          <h1><span>Hello World!</span></h1>
+          <h3>My name is <span>Germán Cassagnes</span> and I am a Full-Stack Web Developer.</h3>
+          <h4>I specialize in responsive, intuitive and lovely websites, and I am currently experimenting with video game making.<br/> My main focus is to create clean code and happy user experiences. </h4>
           </InView>
           <h3>My Stack</h3>
+          
           <div className='stackContainer'>
             <ul className="backend-list">
+              <li className='list-title'>Backend</li>
               <li className="Java"></li>
               <li className="MongoDB"></li>
               <li className="PostgresSQL"></li>
             </ul> <br className="stack-spacer"/>
             <ul className="frontend-list">
+              <li className='list-title'>Frontend</li>
               <li className="JS"></li>
               <li className="Ruby"></li>
               <li className="HtmlCss"></li>

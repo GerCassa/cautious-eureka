@@ -10,7 +10,7 @@
 
 @media only screen and (min-device-width: 400px) {
   .home {
-    background-image: url("/src/Images/fitz-roy-hero.jpg");
+    background-image: url("../Images/fitzRoy-B&W.jpg");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,6 +23,7 @@
   margin-top: 0;
   text-align: center;
   transition: 2s;
+  color: aliceblue;
 }
 
 .not-here {
@@ -37,7 +38,7 @@
   margin: 8px;
   display: inline-table;
   position: relative;
-  background-color: rgba(182, 132, 132, 0.5);
+  /* background-color: rgba(182, 132, 132, 0.5); */
 }
 /* Mobile Styling */
 @media only screen and (max-device-width: 400px) {
@@ -50,6 +51,11 @@ li {
   list-style: none;
   text-decoration: none;
   color: aliceblue;
+}
+
+.list-title {
+  font-size: 16px;
+  text-decoration: underline;
 }
 
 .Java {

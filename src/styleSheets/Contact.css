@@ -1,0 +1,47 @@
+@media screen and (max-width: 400px) {
+  .contact {
+    height: 100vh;
+    background-image: url('../Images/small-cerro-calafate.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+}
+
+.contact {
+  padding-top: 50px;
+  height: 100vh;
+  background-image: url('../Images/fitzRoy-B&W.jpg');
+  background-size: cover;
+  text-align: center;
+}
+
+form {
+  margin-top: 10%;
+  width: 50%;
+}
+
+input, textarea {
+      margin-left: 50%;
+      background: #1e242c;
+      border: 0;
+      box-sizing: border-box;
+      color: #fff;
+      display: block;
+      font-size: 12pt;
+      margin-bottom: 3px;
+      outline: none;
+      padding: 10px 15px;
+      width: 100%;
+}
+
+.button {
+    border:cornsilk;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-left: 50%;
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Oxygen',sans-serif;
+    letter-spacing: 2px;
+}

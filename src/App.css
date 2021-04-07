@@ -1,7 +1,10 @@
 html {
   margin: 0;
   padding:0;
-  scroll-behavior: smooth;
+  scroll-behavior:smooth;
+}
+
+body {
 }
 
 h1 {
@@ -37,11 +40,3 @@ span:hover {
   margin-right: 1em;
   text-align: center;
 }
-
-
-
-.Contact {
-  height: 100vh;
-  background-color: olive;
-}
-

@@ -1,7 +1,7 @@
 /* Home Style */
 
 .home {
-  background-image: url("/src/Images/small-fitz-roy.jpg");
+  background-image: url("https://media.giphy.com/media/3ohhwNqFMnb7wZgNnq/source.gif");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,7 +10,8 @@
 
 @media only screen and (min-device-width: 400px) {
   .home {
-    background-image: url("../Images/fitzRoy-B&W.jpg");
+    background-image: url("https://media.giphy.com/media/3ohhwNqFMnb7wZgNnq/source.gif");
+    /* background-image: url("../Images/fitzRoy-B&W.jpg"); */
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;

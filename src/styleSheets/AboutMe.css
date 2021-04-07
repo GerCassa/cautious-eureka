@@ -1,7 +1,7 @@
 /* About Me Style */
 .aboutMe {
   height: 130vh;
-  background-image: url('../Images/cerro-calafate 2.jpg');
+  background-image: url('../Images/cerro-calafate.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -10,7 +10,7 @@
 @media screen and (max-width: 400px) {
   .aboutMe {
     height: 120vh;
-    background-image: url('../Images/cerro-calafate 2.jpg');
+    background-image: url('../Images/small-cerro-calafate.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;

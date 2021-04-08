@@ -26,8 +26,13 @@ textarea {
   height: 120px;
 }
 
+h4 {
+  margin-top: 60px;
+  color: aliceblue;
+}
+
 input, textarea {
-      margin-left: 50%;
+      margin-left: 60%;
       background: #1e242c;
       border: 0;
       box-sizing: border-box;
@@ -37,7 +42,7 @@ input, textarea {
       margin-bottom: 3px;
       outline: none;
       padding: 10px 15px;
-      width: 100%;
+      width: 80%;
 }
 
 .button {

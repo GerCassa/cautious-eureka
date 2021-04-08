@@ -32,7 +32,7 @@ class Contact extends React.Component {
 
         emailjs.sendForm('contact_service', 'contact_form', this)
         .then(function() {
-          btn.value = 'Sent :)'
+          btn.value = 'Message Sent :)'
           var form = document.getElementById("contact-form");
           form.reset(); 
             console.log('SUCCESS!');
@@ -46,7 +46,8 @@ class Contact extends React.Component {
   render () {
     return (
       <div className="contact">
-        <h1><span>Contact</span></h1>                  
+        <h1><span>Contact</span></h1> 
+        <h4>If you have any questions or want to create something amazing together? Drop me a message!</h4>                 
         <div>
           <form id='contact-form'>
             <input type="hidden" name="contact_number"></input>

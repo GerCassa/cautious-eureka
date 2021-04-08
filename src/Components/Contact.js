@@ -32,7 +32,9 @@ class Contact extends React.Component {
 
         emailjs.sendForm('contact_service', 'contact_form', this)
         .then(function() {
-          btn.value = 'SUBMIT'
+          btn.value = 'Sent :)'
+          var form = document.getElementById("contact-form");
+          form.reset(); 
             console.log('SUCCESS!');
         }, function(error) {
           btn.value = 'SUBMIT'
@@ -55,11 +57,14 @@ class Contact extends React.Component {
             <input placeholder="Enter email" name='user_email' type="email" required="" 
             onChange={event => this.setState({email: event.target.value})}></input>
 
-            <textarea placeholder="Your Message" name='message' 
+            <textarea placeholder="Your Message" name='message'
             onChange={event => this.setState({message: event.target.value})}></textarea>
 
             <input id="sendButton" type='submit'  value="SUBMIT"></input>
           </form>
+        </div>
+        <div id='success'>
+
         </div>
       </div>
     )

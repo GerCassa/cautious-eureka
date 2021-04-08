@@ -1,13 +1,3 @@
-@media screen and (max-width: 400px) {
-  .contact {
-    height: 100vh;
-    background-image: url('../Images/small-cerro-calafate.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: cover;
-  }
-}
-
 .contact {
   padding-top: 50px;
   height: 100vh;
@@ -16,9 +6,24 @@
   text-align: center;
 }
 
+@media only screen and (max-width: 400px) {
+  .contact {
+    height: 100vh;
+    background-image: url('../Images/small-fitz-roy\ 2.jpg');
+    background-color: darkgreen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+}
+
 form {
   margin-top: 10%;
   width: 50%;
+}
+
+textarea {
+  height: 120px;
 }
 
 input, textarea {

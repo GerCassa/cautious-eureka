@@ -1,6 +1,6 @@
 /* About Me Style */
 .aboutMe {
-  height: 130vh;
+  height: 100vh;
   background-image: url('../Images/cerro-calafate.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 400px) {
   .aboutMe {
-    height: 120vh;
+    height: 140vh;
     background-image: url('../Images/small-cerro-calafate.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,7 +20,7 @@
 .aboutMe-text {
   margin-left: 25%;
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   text-align: center;
   display: block;
   width: 50%;
@@ -29,8 +29,10 @@
 .shown {
   font-size: 20px;
   color: aliceblue;
-  padding-top: 13%;
+  padding-top: 5%;
   margin-left: 15%;
+  padding-bottom: 20px;
+  overflow-y: scroll;
   text-align: center;
   line-height: 150%;
   width: 70%;

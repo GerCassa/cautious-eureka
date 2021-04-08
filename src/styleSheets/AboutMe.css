@@ -26,23 +26,22 @@
   width: 50%;
 }
 
-.shown {
+.shown-aboutText {
   font-size: 20px;
   color: aliceblue;
   padding-top: 5%;
   margin-left: 15%;
   padding-bottom: 20px;
-  overflow-y: scroll;
   text-align: center;
   line-height: 150%;
   width: 70%;
   transition: 2s;
 }
 
-.hidden {
-  /* font-size: 20px; */
+.hidden-aboutText {
+  font-size: 20px;
   left: -300%;
   line-height: 150%;
   transition: 2s;
-
+  width: 70%;
 }

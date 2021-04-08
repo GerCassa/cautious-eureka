@@ -47,7 +47,7 @@ class Contact extends React.Component {
     return (
       <div className="contact">
         <h1><span>Contact</span></h1> 
-        <h4>If you have any questions or want to create something amazing together? Drop me a message!</h4>                 
+        <h4>Have any questions or want to create something amazing together? Drop me a message!</h4>                 
         <div>
           <form id='contact-form'>
             <input type="hidden" name="contact_number"></input>

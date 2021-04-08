@@ -6,17 +6,17 @@ import { findRenderedDOMComponentWithClass } from 'react-dom/test-utils';
 class AboutMe extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {text: 'hidden'};
+    this.state = {text: 'hidden-aboutText'};
     this.visible = this.visible.bind(this);
   }
 
   visible(inView) {
     if(inView) {
       // console.log(inView)
-      this.setState({text: 'shown'})
+      this.setState({text: 'shown-aboutText'})
     } else {
       // console.log(inView)
-      this.setState({text: 'hidden'})
+      this.setState({text: 'hidden-aboutText'})
     }
   }
 

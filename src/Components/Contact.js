@@ -1,6 +1,8 @@
 import React from 'react';
 import * as emailjs from 'emailjs-com';
+import Footer from './Footer';
 import '../styleSheets/Contact.css'
+import '../styleSheets/Footer.css'
 
 class Contact extends React.Component {
   constructor(props){
@@ -65,8 +67,8 @@ class Contact extends React.Component {
           </form>
         </div>
         <div id='success'>
-
         </div>
+        <Footer/>
       </div>
     )
   }

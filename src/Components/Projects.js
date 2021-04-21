@@ -27,30 +27,31 @@ class Projects extends React.Component {
       <div className="projects">
         <div>
           <h1 className='projects-title'><span>My projects</span></h1>
-          <ul className="project-links">
-          <InView as="div" onChange={(inView, entry) => this.visible(inView)}>
+          <ul className="projects-list">
+          {/* <InView as="div" onChange={(inView, entry) => this.visible(inView)}> */}
 
-            <li>
-              <a className={this.state.links} href="https://main.d3us38g0xqyx1f.amplifyapp.com/">
-                 <span>ChewieRescue</span>
-                 <img src={chewie} alt='ChewieRescueGame' width='250' height='150'/>
+            <li className='project'>
+              <a className='image-link' href="https://main.d3us38g0xqyx1f.amplifyapp.com/">
+                 <img src={chewie} alt='ChewieRescueGame' width='150' height='100'/>
               </a>   
+                 <h3 className="project-name">ChewieRescue</h3>
+                 {/* <p>JS Game where you are Chewbacca trying to protect the Millenium Falcon</p> */}
             </li>
 
-            <li>
-              <a className={this.state.links} href="https://pokedex-js-gercassa.herokuapp.com/">
-                <span>PokedexJS</span>
-                <img src={pokedex} alt='PokedexJS' width='250' height='150'/>  
+            <li className='project'>
+              <a href="https://pokedex-js-gercassa.herokuapp.com/">
+                <img src={pokedex} alt='PokedexJS' width='150' height='100'/>  
               </a>
+                <h3 className="project-name">PokedexJS</h3>
             </li>
 
-            <li>
-              <a className={this.state.links} href='https://github.com/GerCassa/HotelMagamentApp-JAVA-REACT-'>
-                <span>DaBooRa Booking System</span>
-                <img src={daboora} alt='BookingSystem' width='250' height='150' />
+            <li className='project'>
+              <a href='https://github.com/GerCassa/HotelMagamentApp-JAVA-REACT-'>
+                <img src={daboora} alt='BookingSystem' width='150' height='100' />
               </a>
+                <h3 className="project-name">Hotel Booking System</h3>
             </li>
-            </InView>
+            {/* </InView> */}
 
           </ul>
         </div>

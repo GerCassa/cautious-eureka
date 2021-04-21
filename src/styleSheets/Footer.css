@@ -1,0 +1,20 @@
+.footer {
+  margin-top: 10em;
+  /* height: 53px; */
+  position: static;
+  background-color: tomato;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-icon-list {
+  margin-left: 0;
+  padding-left: 0;
+  display: inline-flex;
+}
+
+.footer-icons {
+  padding-left:10px;
+  padding-right:10px;
+}
+

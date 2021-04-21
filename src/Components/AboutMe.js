@@ -29,8 +29,8 @@ class AboutMe extends React.Component {
         <InView as="div" onChange={(inView, entry) => this.visible(inView)}>
             <h4 className={this.state.text}>
               I was born in the small town El Calafate, in the south of Argentinean Patagonia. I lived there most of my life, enjoying the landscapes and endless hikes along the mountains and glaciers. <br/>
-              Since an early age, I've had a love for computers and video games (and anime!). My town attracts a lot of visitors, so working in Tourism was a natural step. I worked within the industry for more than ten years. <br/>
-            Since moving to Scotland, I've begun to pursue my dream of being a Software Developer</h4>
+              Since an early age, I've had a love for computers and video games. My town attracts a lot of visitors, so working in Tourism was a natural step. I worked within the industry for more than ten years. <br/>
+            Since moving to Scotland, I've begun to pursue my dream of becoming a Software Developer</h4>
         </InView>
       </div>
     )

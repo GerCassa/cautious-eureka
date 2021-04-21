@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import './styleSheets/Navbar.css';
+// import './styleSheets/Footer.css';
 
 import Home from './Components/Home';
 import Contact from './Components/Contact';
 import Navbar from './Components/NavBar';
 import Projects from './Components/Projects';
 import AboutMe from './Components/AboutMe';
+import Footer from './Components/Footer';
 
 class App extends Component {
 
@@ -20,6 +22,7 @@ class App extends Component {
         <section id="aboutMe"><AboutMe/></section>
         <section id="projects"><Projects/></section>
         <section id="contact"><Contact/></section>
+        
       </React.Fragment>
       </Router>
     )

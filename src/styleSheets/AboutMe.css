@@ -20,7 +20,7 @@
 .aboutMe-text {
   margin-left: 25%;
   padding-top: 50px;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
   text-align: center;
   display: block;
   width: 50%;

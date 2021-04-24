@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 400px) {
   .aboutMe {
-    height: 140vh;
+    height: max-content;
     background-image: url('../Images/small-cerro-calafate.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,11 +27,12 @@
 }
 
 .shown-aboutText {
-  font-size: 20px;
   color: aliceblue;
   padding-top: 5%;
-  margin-left: 15%;
   padding-bottom: 20px;
+  margin-left: 15%;
+  margin-bottom: 0;
+  font-size: 20px;
   text-align: center;
   line-height: 150%;
   width: 70%;

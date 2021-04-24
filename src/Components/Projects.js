@@ -24,7 +24,7 @@ class Projects extends React.Component {
 
   render () {
     return (
-      <div className="projects">
+      <div className="projects-section">
         <div>
           <h1 className='projects-title'><span>My projects</span></h1>
           <ul className="projects-list">
@@ -32,24 +32,32 @@ class Projects extends React.Component {
 
             <li className='project'>
               <a className='image-link' href="https://main.d3us38g0xqyx1f.amplifyapp.com/">
-                 <img src={chewie} alt='ChewieRescueGame' width='150' height='100'/>
-              </a>   
+                 <img src={chewie} alt='ChewieRescueGame' width='250' height='150'/>
+              </a> 
+              <div className="name-description">  
                  <h3 className="project-name">ChewieRescue</h3>
-                 {/* <p>JS Game where you are Chewbacca trying to protect the Millenium Falcon</p> */}
+                 <p className="project-description">JS Game where you are Chewbacca trying to protect the Millenium Falcon</p>
+              </div>
             </li>
 
             <li className='project'>
               <a href="https://pokedex-js-gercassa.herokuapp.com/">
-                <img src={pokedex} alt='PokedexJS' width='150' height='100'/>  
+                <img src={pokedex} alt='PokedexJS' width='250' height='150'/>  
               </a>
+              <div className="name-description">
                 <h3 className="project-name">PokedexJS</h3>
+                <p className="project-description">React App imitating the traditional Pokedex. Rendering pokemons details directly from the API.</p>
+              </div>
             </li>
 
             <li className='project'>
               <a href='https://github.com/GerCassa/HotelMagamentApp-JAVA-REACT-'>
-                <img src={daboora} alt='BookingSystem' width='150' height='100' />
+                <img src={daboora} alt='BookingSystem' width='250' height='150' />
               </a>
+              <div className="name-description">
                 <h3 className="project-name">Hotel Booking System</h3>
+                <p className="project-description"> React Front end with JAVA back end. MongoDB database. Booking system that handles RESTful functionalities</p>
+              </div>
             </li>
             {/* </InView> */}
 

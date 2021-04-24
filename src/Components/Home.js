@@ -27,7 +27,7 @@ class Home extends React.Component {
           <InView as="div" onChange={(inView, entry) => this.visible(inView)}>
           <h1><span>Hello World!</span></h1>
           <h3>My name is <span>Germán Cassagnes</span> and I am a Full-Stack Web Developer.</h3>
-          <h4>I specialize in responsive, intuitive and cool websites, and I am currently experimenting with video game making.<br/> My main focus is to create clean code and happy user experiences. </h4>
+          <h4>I specialize in responsive, intuitive and cool websites, and I am currently experimenting with games making.<br/> My main focus is to create clean code and happy user experiences. </h4>
           </InView>
           <h3>My Stack</h3>
           

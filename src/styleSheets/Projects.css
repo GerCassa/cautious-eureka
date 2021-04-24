@@ -17,6 +17,7 @@
 .projects-list {
   width: 100%;
   margin-top: 5em;
+  padding-left: 0;
   display: inline-flex;
   flex-flow: row wrap;
   align-content: space-around;
@@ -28,8 +29,11 @@
   width:100%;
 }
 
-img {
+.image-link {
   border: 3px double tomato;
+  width: 150px;
+  height: 100px;
+  margin: 1em 0 1em 0;
 }
 
 .project-name {

@@ -31,8 +31,8 @@ class Projects extends React.Component {
           {/* <InView as="div" onChange={(inView, entry) => this.visible(inView)}> */}
 
             <li className='project'>
-              <a className='image-link' href="https://main.d3us38g0xqyx1f.amplifyapp.com/">
-                 <img src={chewie} alt='ChewieRescueGame' width='250' height='150'/>
+              <a href="https://main.d3us38g0xqyx1f.amplifyapp.com/">
+                 <img src={chewie} alt='ChewieRescueGame' className="image-link"/>
               </a> 
               <div className="name-description">  
                  <h3 className="project-name">ChewieRescue</h3>
@@ -42,7 +42,7 @@ class Projects extends React.Component {
 
             <li className='project'>
               <a href="https://pokedex-js-gercassa.herokuapp.com/">
-                <img src={pokedex} alt='PokedexJS' width='250' height='150'/>  
+                <img src={pokedex} alt='PokedexJS' className="image-link"/>  
               </a>
               <div className="name-description">
                 <h3 className="project-name">PokedexJS</h3>
@@ -52,7 +52,7 @@ class Projects extends React.Component {
 
             <li className='project'>
               <a href='https://github.com/GerCassa/HotelMagamentApp-JAVA-REACT-'>
-                <img src={daboora} alt='BookingSystem' width='250' height='150' />
+                <img src={daboora} alt='BookingSystem' className="image-link" />
               </a>
               <div className="name-description">
                 <h3 className="project-name">Hotel Booking System</h3>

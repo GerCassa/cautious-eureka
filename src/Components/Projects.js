@@ -31,32 +31,41 @@ class Projects extends React.Component {
           {/* <InView as="div" onChange={(inView, entry) => this.visible(inView)}> */}
 
             <li className='project'>
-              <a href="https://main.d3us38g0xqyx1f.amplifyapp.com/">
+              <a href="https://main.d3us38g0xqyx1f.amplifyapp.com/" target='_blank'>
                  <img src={chewie} alt='ChewieRescueGame' className="image-link"/>
               </a> 
-              <div className="name-description">  
+              <div className="name-description"> 
+                <a className="project-a" href="https://main.d3us38g0xqyx1f.amplifyapp.com/" target='_blank'>
                  <h3 className="project-name">ChewieRescue</h3>
+                </a> 
                  <p className="project-description">JS Game where you are Chewbacca trying to protect the Millenium Falcon</p>
+                 <p className='tech'>ReactJS</p> <p className='tech'>CanvasHTML</p>
               </div>
             </li>
 
             <li className='project'>
-              <a href="https://pokedex-js-gercassa.herokuapp.com/">
+              <a href="https://pokedex-js-gercassa.herokuapp.com/" target='_blank'>
                 <img src={pokedex} alt='PokedexJS' className="image-link"/>  
               </a>
               <div className="name-description">
-                <h3 className="project-name">PokedexJS</h3>
+                <a className="project-a" href="https://pokedex-js-gercassa.herokuapp.com/" target='_blank'>
+                  <h3 className="project-name">PokedexJS</h3>
+                </a>
                 <p className="project-description">React App imitating the traditional Pokedex. Rendering pokemons details directly from the API.</p>
+                <p className='tech'>ReactJS</p> <p className='tech'>API</p>
               </div>
             </li>
 
             <li className='project'>
-              <a href='https://github.com/GerCassa/HotelMagamentApp-JAVA-REACT-'>
+              <a href='https://github.com/GerCassa/HotelMagamentApp-JAVA-REACT-' target='_blank'>
                 <img src={daboora} alt='BookingSystem' className="image-link" />
               </a>
               <div className="name-description">
-                <h3 className="project-name">Hotel Booking System</h3>
+                <a className="project-a" href='https://github.com/GerCassa/HotelMagamentApp-JAVA-REACT-' target='_blank'>
+                  <h3 className="project-name">Hotel Booking System</h3>
+                </a>
                 <p className="project-description"> React Front end with JAVA back end. MongoDB database. Booking system that handles RESTful functionalities</p>
+                <p className='tech'>ReactJS</p> <p className='tech'>JAVA</p> <p className='tech'>MongoDB</p>
               </div>
             </li>
             {/* </InView> */}

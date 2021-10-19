@@ -29,6 +29,18 @@ class Projects extends React.Component {
           <h1 className='projects-title'><span>My projects</span></h1>
           <ul className="projects-list">
           {/* <InView as="div" onChange={(inView, entry) => this.visible(inView)}> */}
+            <li className='project'>
+              <a href='https://github.com/GerCassa/HotelMagamentApp-JAVA-REACT-' target='_blank'>
+                <img src={daboora} alt='BookingSystem' className="image-link" />
+              </a>
+              <div className="name-description">
+                <a className="project-a" href='https://github.com/GerCassa/HotelMagamentApp-JAVA-REACT-' target='_blank'>
+                  <h3 className="project-name">Hotel Booking System</h3>
+                </a>
+                <p className="project-description"> React Front end with JAVA back end. MongoDB database. Booking system that handles REST and CRUD functionalities</p>
+                <p className='tech'>ReactJS</p> <p className='tech'>JAVA</p> <p className='tech'>MongoDB</p>
+              </div>
+            </li>
 
             <li className='project'>
               <a href="https://main.d3us38g0xqyx1f.amplifyapp.com/" target='_blank'>
@@ -56,18 +68,6 @@ class Projects extends React.Component {
               </div>
             </li>
 
-            <li className='project'>
-              <a href='https://github.com/GerCassa/HotelMagamentApp-JAVA-REACT-' target='_blank'>
-                <img src={daboora} alt='BookingSystem' className="image-link" />
-              </a>
-              <div className="name-description">
-                <a className="project-a" href='https://github.com/GerCassa/HotelMagamentApp-JAVA-REACT-' target='_blank'>
-                  <h3 className="project-name">Hotel Booking System</h3>
-                </a>
-                <p className="project-description"> React Front end with JAVA back end. MongoDB database. Booking system that handles RESTful functionalities</p>
-                <p className='tech'>ReactJS</p> <p className='tech'>JAVA</p> <p className='tech'>MongoDB</p>
-              </div>
-            </li>
             {/* </InView> */}
 
           </ul>

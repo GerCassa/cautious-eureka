@@ -1,14 +1,26 @@
+
 .footer {
-  margin-top: 10em;
-  /* height: 53px; */
-  position: static;
-  background-color: tomato;
-  text-align: center;
-  width: 100%;
+    z-index: 1;
+    position: sticky;
+    bottom: 0;
+    background-color: tomato;
+    text-align: center;
+    height: 10%;
+    width: 100%;
 }
+
+@media only screen and (max-device-width: 400px) {
+  .footer {
+    display: none;
+  }
+}
+
+
 
 .footer-icon-list {
   margin-left: 0;
+  margin-top: 2px;
+  margin-bottom: 0;
   padding-left: 0;
   display: inline-flex;
 }

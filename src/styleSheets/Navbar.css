@@ -34,11 +34,11 @@
   transition: .5s;
 }
 
-/* @media only screen and (max-device-width: 400px) {
-  .menu-open {
-    background-color: blue;
+@media only screen and (max-device-width: 400px) {
+  .burger {
+    display: none;
   }
-} */
+}
 
 .nav-a {
   text-decoration: none;

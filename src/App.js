@@ -22,7 +22,7 @@ class App extends Component {
         <section id="aboutMe"><AboutMe/></section>
         <section id="projects"><Projects/></section>
         <section id="contact"><Contact/></section>
-        
+        <Footer/>
       </React.Fragment>
       </Router>
     )

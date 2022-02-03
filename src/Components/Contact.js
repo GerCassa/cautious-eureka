@@ -68,7 +68,7 @@ class Contact extends React.Component {
         </div>
         <div id='success'>
         </div>
-        <Footer/>
+            {/* <Footer/> */}
       </div>
     )
   }
